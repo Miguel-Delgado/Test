@@ -16,3 +16,4 @@
 
 # Игнорировать сгенерированные файлы Visual Studio Code
 .vscode/
+.output/
