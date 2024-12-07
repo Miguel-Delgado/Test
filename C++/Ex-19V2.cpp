@@ -12,8 +12,9 @@ int main(){
     int massiv1[10];
     int count_chet = 0, count_nechet = 0;
 
+    cout << "| ";
     for (int i = 0; i < 10; i++){
-        int n = rand() % 20 + 1;
+        int n = rand() % 50 + 1;
         massiv1[i] = n;
         if (n % 2 == 0){
             count_chet++;
@@ -21,7 +22,7 @@ int main(){
         else {
             count_nechet++;
         }
-        cout << massiv1[i] << " ";
+        cout << massiv1[i] << " | ";
     }
     cout << endl;
 
