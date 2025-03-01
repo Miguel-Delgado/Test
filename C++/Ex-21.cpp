@@ -8,12 +8,10 @@ int main(){
     setlocale(LC_ALL, "rus");
     char symb;
     int num;
-    char* p;
-    int* q;
-    p = &symb;
-    q = &num;
+    char* p = &symb;
+    int* q = &num;
     *p = 'A';
-    *q = 100;
+    *q = 100;           
     cout << "symb = " << symb << endl;
     cout  << "num = " << num << endl;
     return 0;
