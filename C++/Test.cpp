@@ -14,4 +14,5 @@ int main(){
     int* q;
     p = &symb;
     q =  &num;
+    cout << "Hello world" << endl;
 }
