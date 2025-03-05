@@ -16,7 +16,7 @@ int main(){
         i++;
     }
     cout << "\nМассив после сортировки: \n" << "| ";
-    for (int i = 1; i < 10; i++){
+    for (int i = 1; i <= 10; i++){ // Почему тут <= а не <(позже узнать у GPT)
         for (int j = 0; j < 10 - i; j++){
             if (massiv[j] < massiv[j + 1]){
                 s = massiv[j + 1];
