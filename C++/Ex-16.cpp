@@ -4,7 +4,7 @@
 using namespace std;
 
 int main(){
-    system("chcp 1251 > null");
+    system("chcp 1251 > nul");
     setlocale(LC_ALL, "Rus");
     int IF_FIB;
     cout << "¬ведите число от 1 от 10: ";
