@@ -15,6 +15,6 @@ int main(){
     *p = 'A';
     *q = 100;
     cout << "symb = " << symb << endl;
-    cout << "num = " << num << endl;
+    cout << "num = " << num << endl;            
     return 0;
 }

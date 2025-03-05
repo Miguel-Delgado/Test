@@ -9,15 +9,15 @@ int main(){
     setlocale(LC_ALL, "rus");
     srand(time(NULL));
     cout << "Массив до сортировки: \n" << "| ";
-    int massiv[20], i = 0, s = 0;
+    int massiv[10], i = 0, s = 0;
     for (int &n: massiv){
-        n = rand() % 20 + 1;
+        n = rand() % 10 + 1;
         cout << massiv[i] << " | ";
         i++;
     }
     cout << "\nМассив после сортировки: \n" << "| ";
-    for (int i = 1; i < 20; i++){
-        for (int j = 0; j < 20 - i; j++){
+    for (int i = 1; i < 10; i++){
+        for (int j = 0; j < 10 - i; j++){
             if (massiv[j] < massiv[j + 1]){
                 s = massiv[j + 1];
                 massiv[j + 1] = massiv[j];
@@ -25,7 +25,7 @@ int main(){
             }
         }
     }
-    for (int k = 0; k < 20; k++){
+    for (int k = 0; k < 10; k++){
         cout << massiv[k] << " | ";
     }
     return 0;
