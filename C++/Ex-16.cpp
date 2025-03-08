@@ -7,7 +7,7 @@ int main(){
     system("chcp 1251 > nul");
     setlocale(LC_ALL, "Rus");
     int IF_FIB;
-    cout << "??????? ????? ?? 1 ?? 10: ";
+    cout << "Введите число от 1 до 10: ";
     cin >> IF_FIB;
     if (IF_FIB < 1){
         cout << "Вы ввели число не диапозоне от 1 до 10 ";
