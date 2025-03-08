@@ -5,6 +5,9 @@ using namespace std;
 
 int main() {
     system("chcp 65001 > nul");
-    cout << "Привет мигельчик" << endl;
+    int a = 100;
+    int* p;
+    p = &a;
+    cout << "Твой ответ: "<< *p << endl;
     return 0;
 }
