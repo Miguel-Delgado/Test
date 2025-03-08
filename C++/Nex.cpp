@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     system("chcp 1251 > nul");
     setlocale(LC_ALL, "rus");
-    cout << "Ïðèâåò ìèð!" << endl;
+    cout << "ÐŸÑ€Ð¸Ð²ÐµÑ‚ Ð¼Ð¸Ñ€!" << endl;
     system("pause > nul");
     return 0;
 }
